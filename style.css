@@ -425,6 +425,10 @@ nav.show ul.grid {
   padding: 4rem 1rem;
 }
 
+#testimonials .swiper-pagination {
+  position: relative;
+}
+
 .swiper-pagination-bullet-active {
   background: var(--base-color);
 }
