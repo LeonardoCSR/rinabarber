@@ -370,6 +370,8 @@ nav.show ul.grid {
 /*================= TESTIMONIALS ================= */
 #testimonials {
   background: white;
+  position: relative;
+  overflow: hidden;
 }
 
 #testimonials .container {
@@ -423,10 +425,6 @@ nav.show ul.grid {
 .swiper-slide {
   height: auto;
   padding: 4rem 1rem;
-}
-
-#testimonials .swiper-pagination {
-  position: relative;
 }
 
 .swiper-pagination-bullet-active {
